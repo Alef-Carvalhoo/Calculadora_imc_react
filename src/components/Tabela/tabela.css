@@ -1,0 +1,58 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.tabela {
+    background-color: #ececec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: solid #444444;
+}
+
+thead {
+    text-align: left;
+    max-width: 750px;
+    width: 100%;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+tbody {
+    font-size: 15px;
+}
+
+td {
+    padding-top: 10px;
+    border-bottom: solid 1.5px;
+    border-left: solid 1.5px;
+}
+
+th {
+    padding-top: 10px;
+    width: 100%;
+}
+
+span {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 740px) {
+    thead {
+        text-align: left;
+        max-width: 750px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+    }
+}
